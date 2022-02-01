@@ -32,5 +32,5 @@ class UserSerializer(serializers.ModelSerializer):
         instance.avatar = validated_data.get('avatar', instance.avatar)
         if 'password' in validated_data:
             instance.set_password(validated_data['password'])
-            instance.save()
+        instance.save()
         return instance
