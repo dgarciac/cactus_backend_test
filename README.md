@@ -44,4 +44,4 @@ echo "DB_PASSWORD = \"test_password\"" >> .env
 .manage.py runserver
 ```
 
-To access the project go to http://127.0.0.1/login
+To access the project go to http://127.0.0.1:8000/login
